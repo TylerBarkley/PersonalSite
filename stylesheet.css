@@ -16,7 +16,13 @@ body {
 .imageHead {
     position: relative;
 }
-@media (min-width: 800px) {
+@media(min-width: 1367px) {
+    .topImage{
+        max-height: 300px;
+        overflow: hidden;
+    }
+}
+@media(min-width: 800px) {
     h1 {
         position: absolute;
         top: 30%;
@@ -44,7 +50,7 @@ body {
         margin-top: 15px;
     }
 }
-@media (max-width: 800px) {
+@media(max-width: 800px) {
     h1 {
         position: absolute;
         top: 30%;
@@ -69,4 +75,18 @@ body {
     hr {
         display: none;
     }
+}
+section {
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    color: #3D4451;
+}
+h2 {
+
+}
+.thickText {
+    font-weight: 900;
 }
