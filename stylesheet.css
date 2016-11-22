@@ -20,6 +20,7 @@ body {
     .topImage{
         max-height: 300px;
         overflow: hidden;
+        width: 100%;
     }
 }
 @media(min-width: 800px) {
@@ -81,11 +82,11 @@ section {
     margin-left: 20%;
     margin-right: 20%;
     font-family: "Lato", sans-serif;
-    font-weight: 100;
+    font-size: 25px;
     color: #3D4451;
 }
 h2 {
-
+    font-weight: 400;
 }
 .thickText {
     font-weight: 900;
