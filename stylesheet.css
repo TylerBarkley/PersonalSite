@@ -16,10 +16,10 @@ body {
 .imageHead {
     position: relative;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
     h1 {
         position: absolute;
-        top: 200px;
+        top: 30%;
         text-align: center;
         width: 100%;
         color: floralwhite;
@@ -44,10 +44,10 @@ body {
         margin-top: 15px;
     }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     h1 {
         position: absolute;
-        top: 23px;
+        top: 30%;
         text-align: center;
         width: 100%;
         color: floralwhite;
