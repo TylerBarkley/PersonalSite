@@ -1,6 +1,6 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 body {
     font-family: "Lato", sans-serif;
@@ -14,27 +14,59 @@ body {
     height: auto;
 }
 .imageHead {
-    postion: relative;
+    position: relative;
 }
-h1 {
-    position: absolute;
-    top: 200px;
-    text-align: center;
-    width: 100%;
-    color: floralwhite;
-    text-shadow: 2px 2px #000000;
-    font-weight: 900;
-    font-size: 50px;
+@media screen and (min-width: 700px) {
+    h1 {
+        position: absolute;
+        top: 200px;
+        text-align: center;
+        width: 100%;
+        color: floralwhite;
+        text-shadow: 2px 2px #000000;
+        font-weight: 900;
+        font-size: 50px;
+    }
+
+    .headSmall {
+        font-size: 35px;
+        color: floralwhite;
+        text-shadow: 2px 2px #000000;
+        font-weight: 900;
+    }
+    .headSmallMobile {
+        display: none;
+    }
+    hr {
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+    }
 }
-.headSmall {
-    font-size: 35px;
-    color: floralwhite;
-    text-shadow: 2px 2px #000000;
-    font-weight: 900;
-}
-hr {
-    width: 30%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
+@media screen and (max-width: 700px) {
+    h1 {
+        position: absolute;
+        top: 23px;
+        text-align: center;
+        width: 100%;
+        color: floralwhite;
+        text-shadow: 2px 2px #000000;
+        font-weight: 900;
+        font-size: 20px;
+    }
+
+    .headSmall {
+        display: none;
+    }
+    .headSmallMobile {
+        font-size: 15px;
+        color: floralwhite;
+        text-shadow: 2px 2px #000000;
+        font-weight: 700;
+    }
+
+    hr {
+        display: none;
+    }
 }
