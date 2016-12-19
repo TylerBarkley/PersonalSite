@@ -131,3 +131,6 @@ ul > li > a:hover {
     margin-top: 25px;
     margin-bottom: 25px;
 }
+.b {
+    font-weight: bold;
+}
