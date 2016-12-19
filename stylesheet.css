@@ -25,17 +25,14 @@ body {
 }
 section {
     margin-top: 20px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     font-family: "Lato", sans-serif;
-    font-size: 25px;
+    font-size: 19px;
     color: #3D4451;
 }
 h2 {
     font-weight: 400;
-}
-.thickText {
-    font-weight: 900;
 }
 @media(min-width: 800px) {
     h1 {
@@ -58,7 +55,7 @@ h2 {
     .headSmallMobile {
         display: none;
     }
-    hr {
+    h1 > hr {
         width: 30%;
         margin-left: auto;
         margin-right: auto;
@@ -87,10 +84,50 @@ h2 {
         font-weight: 700;
     }
 
-    hr {
+    h1 > hr {
         display: none;
     }
     section {
         font-size: 14px;
     }
+}
+.link {
+    text-decoration: none;
+    color: #3D4451;
+}
+.link:hover {
+    font-weight: bold;
+}
+ul {
+    position: absolute;
+    margin-bottom: 5px;
+    float: right;
+}
+ul > li {
+    position: static;
+    padding-top: 5px;
+    padding-left: 5px;   
+    list-style: none;
+    display: inline-block;
+}
+ul > li > a {
+    text-decoration: none;
+    padding: 4px 10px;
+    color: floralwhite;
+    text-shadow: 2px 2px #000000;
+    font-size: 16pt;
+}
+ul > li > a:hover {
+    text-shadow: 3px 3px #000000;
+}
+.thickText {
+    font-weight: 900;
+    font-size: 30px;
+}
+.rule {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
