@@ -119,6 +119,7 @@ ul > li > a {
 }
 ul > li > a:hover {
     text-shadow: 3px 3px #000000;
+    font-size: 16.5pt;
 }
 .thickText {
     font-weight: 900;
@@ -133,4 +134,16 @@ ul > li > a:hover {
 }
 .b {
     font-weight: bold;
+}
+.returnTop {
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+    font-size: 16px
+    font-weight: 400;
+    font-style: italic;
+}
+.returnTop a {
+    text-decoration: none;
+    color: #3D4451;
 }
