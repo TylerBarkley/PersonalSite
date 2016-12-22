@@ -32,6 +32,11 @@ section {
     font-size: 19px;
     color: #3D4451;
 }
+.alternateColor {
+    width: 100%;
+    background-color: #D3D3D3;
+    padding: -100%;
+}
 h2 {
     font-weight: 400;
 }
